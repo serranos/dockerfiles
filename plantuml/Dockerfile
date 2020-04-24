@@ -2,7 +2,7 @@ FROM frolvlad/alpine-java:jre8-slim
 
 LABEL maintainer "Serranos Miser <twitter.com/serranos>"
 
-ENV PLANTUML_VERSION=1.2019.11
+ENV PLANTUML_VERSION=1.2020.7
 
 RUN \
   apk add --no-cache graphviz wget ca-certificates && \
